@@ -1,6 +1,7 @@
 package net.likzerd.vsfmod;
 
 import net.fabricmc.api.ModInitializer;
+import net.likzerd.vsfmod.item.ModItemGroups;
 import net.likzerd.vsfmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -13,5 +14,6 @@ public class VSFMod implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hello Fabric world!");
 		ModItems.registerModItems();
+		ModItemGroups.registerItemGroups();
 	}
 }

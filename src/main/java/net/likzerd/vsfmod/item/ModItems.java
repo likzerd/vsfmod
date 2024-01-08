@@ -12,6 +12,7 @@ import net.minecraft.util.Identifier;
 
 public class ModItems {
     public static final Item RAW_BAUXITE = registerItem("rawbauxite", new Item(new FabricItemSettings()));
+    public static final Item EARTH_PLANET_ID_CHIP = registerItem("earthplanetidchip", new Item(new FabricItemSettings()));
 
     private static void addItemsToIngredientTabItemsGroup(FabricItemGroupEntries entries) {
         entries.add(RAW_BAUXITE);
