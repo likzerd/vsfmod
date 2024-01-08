@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "vsfmod",
+	"version": "${version}",
+	"name": "VSFMod",
+	"description": "This is a mod dedicated to a server called VSF.",
+	"authors": [
+		"likzerd"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/vsfmod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.likzerd.vsfmod.VSFMod"
+		],
+		"client": [
+			"net.likzerd.vsfmod.VSFModClient"
+		],
+		"fabric-datagen": [
+			"net.likzerd.vsfmod.VSFModDataGenerator"
+		]
+	},
+	"mixins": [
+		"vsfmod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.3",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
