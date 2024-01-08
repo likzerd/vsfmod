@@ -17,6 +17,8 @@ public class ModItemGroups {
                     .icon(() -> new ItemStack(ModItems.RAW_BAUXITE)).entries((displayContext, entries) -> {
                         entries.add(ModItems.RAW_BAUXITE);
                         entries.add(ModItems.EARTH_PLANET_ID_CHIP);
+                        entries.add(ModItems.MOON_PLANET_ID_CHIP);
+                        entries.add(ModItems.MARS_PLANET_ID_CHIP);
                         entries.add(Items.DIAMOND);
 
 

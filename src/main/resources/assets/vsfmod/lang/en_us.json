@@ -1,6 +1,8 @@
 {
-  "rawbauxite": "Raw Bauxite",
-  "earthplanetidchip": "Earth Planet ID Chip",
+  "item.vsfmod.rawbauxite": "Raw Bauxite",
+  "item.vsfmod.earthplanetidchip": "Earth Planet ID Chip",
+  "item.vsfmod.moonplanetidchip": "Moon Planet ID Chip",
+  "item.vsfmod.marsplanetidchip": "Mars Planet ID Chip",
 
 
 
