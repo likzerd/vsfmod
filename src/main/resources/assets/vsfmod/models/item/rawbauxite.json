@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/generated",
   "textures": {
-    "layer0": "VSFMod:item/rawbauxite"
+    "layer0": "vsfmod:item/rawbauxite"
   }
 }
