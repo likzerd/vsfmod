@@ -2,6 +2,7 @@ package net.likzerd.vsfmod.item;
 
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.likzerd.vsfmod.VSFMod;
+import net.likzerd.vsfmod.block.ModBlocks;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
 import net.minecraft.item.Items;
@@ -20,6 +21,7 @@ public class ModItemGroups {
                         entries.add(ModItems.MOON_PLANET_ID_CHIP);
                         entries.add(ModItems.MARS_PLANET_ID_CHIP);
 
+                        entries.add(ModBlocks.DEEPSLATE_BAUXITE);
 
                     }).build());
 
