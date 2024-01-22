@@ -14,6 +14,7 @@ import net.minecraft.util.Identifier;
 public class ModBlocks {
     public static final Block DEEPSLATE_BAUXITE = registerBlock("deepslate_bauxite",
             new Block(FabricBlockSettings.copyOf(Blocks.DEEPSLATE_DIAMOND_ORE)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(VSFMod.MOD_ID, name), block);
