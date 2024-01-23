@@ -21,7 +21,7 @@ import java.util.List;
 public class ModConfiguredFeatures {
     public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_BAUXITE_KEY = registerKey("deepslate_bauxite");
 
-
+    public static final RegistryKey<ConfiguredFeature<?, ?>> DEEPSLATE_BAUXITE_PLACED_KEY = registerKey("deepslate_bauxite_placed");
     public static void boostrap(Registerable<ConfiguredFeature<?, ?>> context) {
 
         RuleTest deepslateReplacables = new TagMatchRuleTest(BlockTags.DEEPSLATE_ORE_REPLACEABLES);
